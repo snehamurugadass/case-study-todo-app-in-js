@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#carousel {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd; /* Placeholder background for carousel */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+body {
+    background-image: url('https://image.winudf.com/v2/image/Y29tLmZyZWUud2FsbHBhcGVycy5iYWNrZ3JvdW5kM2QuaGRfc2NyZWVuc2hvdHNfMV9hMDg2MDYyZg/screen-1.jpg?fakeurl=1&type=.jpg'); /* Use a high-quality background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+    border-radius: 8px;
+}
